@@ -1,34 +1,35 @@
-import 
-{
-    Target,Heart,BookOpen,Users,Globe,Leaf,Building,HandHeart,TrendingUp,Recycle,Camera,Shirt,Award
+// src/data/index.js
+import {
+  Target, Heart, BookOpen, Users, Globe, Leaf, Building,
+  HandHeart, TrendingUp, Recycle, Camera, Shirt, Award
 } from 'lucide-react';
 
 export const sdgData = [
-{id:1, title:"Pas de pauvreté", color:"#E5243B", icon: Target},
-{id:2, title:"Faim Zéro", color:"#DDA63A", icon: Heart},
-{id:4, title:"Éducation de qualité", color:"#C5192D", icon: BookOpen},
-{id:5, title:"Égalité des sexes", color:"#FF3A21", icon: Users},
-{id:14, title:"Vie aquatique", color:"#0BB9D7", icon: Globe},
-{id:15, title:"Vie terrestre", color:"#3EB049", icon: Leaf},
-{id:17, title: "Partenariats", color:"#19486A", icon: Building},
-] ;
+  { id: 1,  title: "Pas de pauvreté",    color: "#E5243B", icon: Target   },
+  { id: 2,  title: "Faim Zéro",          color: "#DDA63A", icon: Heart    },
+  { id: 4,  title: "Éducation de qualité", color: "#C5192D", icon: BookOpen },
+  { id: 5,  title: "Égalité des sexes",  color: "#FF3A21", icon: Users    },
+  { id: 14, title: "Vie aquatique",      color: "#0BB9D7", icon: Globe    },
+  { id: 15, title: "Vie terrestre",      color: "#3EB049", icon: Leaf     },
+  { id: 17, title: "Partenariats",       color: "#19486A", icon: Building },
+];
 
 export const programsData = [
-    {
-        id:1 ,
-        name: "ZARA AINA",
-        categories:["Social"],
-        description: "Aide alimentaire et produits de nécessité pour les communautés vulnérables.",
-        icon: HandHeart,
-    },
-    {
-        id:2 ,
-        name: "TBM-ATHLÉTISME",
-        categories:["Social","Culture"],
-        description: "Sport et dépassement de soi pour la jeunesse malagasy.",
-        icon: TrendingUp,
-    },
-    {
+  {
+    id: 1,
+    name: "ZARA AINA",
+    categories: ["Social"],
+    description: "Aide alimentaire et produits de nécessité pour les communautés vulnérables.",
+    icon: HandHeart,
+  },
+  {
+    id: 2,
+    name: "TBM-ATHLÉTISME",
+    categories: ["Social", "Culture"],
+    description: "Sport et dépassement de soi pour la jeunesse malagasy.",
+    icon: TrendingUp,
+  },
+  {
     id: 3,
     name: "FA.FI.HAI.",
     categories: ["Éducation"],
@@ -63,15 +64,16 @@ export const programsData = [
     description: "Mode éthique et emploi pour les communautés locales.",
     icon: Shirt,
   },
-
 ];
+
 export const timelineData = [
-    {
-        year: "2023",
-        title: "Formation",
-        description:"Création de TOKONTANY BE MALAGASY avec la vision d'un impact social durable ancré dans les valeurs malgaches.",
-    },
-      {
+  {
+    year: "2023",
+    title: "Fondation",
+    description:
+      "Création de TOKONTANY BE MALAGASY avec la vision d'un impact social durable ancré dans les valeurs malgaches.",
+  },
+  {
     year: "2024",
     title: "Expansion",
     description:
@@ -84,7 +86,7 @@ export const timelineData = [
       "Renforcement des partenariats stratégiques et élargissement significatif de notre portée communautaire.",
   },
 ];
- 
+
 export const valuesData = [
   {
     title: "FIHAVANANA",
@@ -104,7 +106,6 @@ export const valuesData = [
       "L'accessibilité et l'équité pour chaque membre de notre communauté, sans distinction.",
     icon: Users,
   },
-
 ];
 
 export const categories = ["Tous", "Social", "Écologie", "Éducation", "Culture"];
@@ -122,4 +123,5 @@ export const navLinks = [
   { name: "Programmes", href: "#programmes" },
   { name: "Parcours",   href: "#parcours"   },
   { name: "Valeurs",    href: "#valeurs"    },
+  { name: "Contact",    href: "#contact"    },
 ];
