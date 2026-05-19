@@ -16,7 +16,7 @@ const Footer = () => (
             <div>
               <span className="font-bold text-xl text-[#2D2D2D] block leading-tight">TOKONTANY BE</span>
               <span className="text-[#C84B31] text-xs font-medium -mt-1 block">MALAGASY</span>
-              <span className="text-[#2D2D2D]/80 text-[10px] uppercase tracking-[0.15em] mt-1 block">Ny fiavanana no tombony ho antsika</span>
+              <span className="text-[#2D2D2D]/80 text-[10px] uppercase tracking-[0.15em] mt-1 block">Ny fihavanana no tombony ho antsika</span>
 
             </div>
           </div>

@@ -8,7 +8,7 @@ import {
 export const sdgData = [
   { id: 1,  title: "Pas de pauvreté",    color: "#E5243B", icon: Target   },
   { id: 2,  title: "Faim Zéro",          color: "#DDA63A", icon: Heart    },
-  {id: 3, title:"Sport , Fitness et Massage", color:"#4C9F38", icon: Volleyball},
+  {id: 3, title:"Bonne santé et bien-être", color:"#4C9F38", icon: Volleyball},
   { id: 4,  title: "Éducation de qualité", color: "#C5192D", icon: BookOpen },
   { id: 5,  title: "Égalité des sexes",  color: "#FF3A21", icon: Users    },
   {id:12, title: "Tourisme durable et projet recyclage", color:"#6A3A9A", icon: Camera   },

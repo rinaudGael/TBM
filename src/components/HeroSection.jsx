@@ -25,7 +25,7 @@ const HeroSection = () => (
             <h1 className='text-5xl sm:text-6xl md:text-7xl lg:text-8xl font-bold text-[2D2D2D] leading-[1.1] mb-6'>TOKONTANY BE <br />
                 <span className='text-[#C84B31]'>MALAGASY</span>
             </h1>
-            <p className='text-xl md:text-2xl font-semibold text-[#2D2D2D] mb-4'>"Ny fiavanana no tombony ho antsika"</p>
+            <p className='text-xl md:text-2xl font-semibold text-[#2D2D2D] mb-4'>"Ny fihavanana no tombony ho antsika"</p>
             <p className='max-w-2xl mx-auto text-lg md:text-xl text-[#2D2D2D]/60 mb-10 leading-relaxed'>        Héritage culturel et innovation sociale au service des communautés malagasy.
         Ensemble, construisons un avenir durable et solidaire.
             </p>
