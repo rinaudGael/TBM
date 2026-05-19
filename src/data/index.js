@@ -63,7 +63,7 @@ export const programsData = [
   {
     id: 7,
     name: "MALAGASY PRINT&CO",
-    categories: ["Éducation"],
+    categories: ["Éducation/Formation"],
     description: "Formation et création d'emplois dans la confection et la sérigraphie",
     icon: Shirt,
   },
@@ -139,12 +139,12 @@ export const valuesData = [
   },
 ];
 
-export const categories = ["Tous", "Social", "Tourisme", "Éducation","Environnement", "Culture","Bien-être"];
+export const categories = ["Tous", "Social", "Tourisme", "Éducation/Formation","Environnement", "Culture","Bien-être"];
 
 export const categoryColors = {
   Social:    "#C84B31",
   Environnement:  "#3EB049",
-  Éducation: "#19486A",
+  "Éducation/Formation": "#19486A",
   Culture:   "#DDA63A",
   "Bien-être": "#C5192D",
   Tourisme: "#0BB9D7",
