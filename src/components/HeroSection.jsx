@@ -2,9 +2,8 @@ import {motion} from 'framer-motion';
 import { ArrowRight } from 'lucide-react';
 
 const stats = [
-    { number: '7', label:'ODD Ciblés'},
+    { number: '9', label:'ODD Ciblés'},
     { number: '7', label:'Programmes'},
-    { number: '7', label:'Fondation'},
 ];
 
 const HeroSection = () => (
@@ -26,7 +25,8 @@ const HeroSection = () => (
             <h1 className='text-5xl sm:text-6xl md:text-7xl lg:text-8xl font-bold text-[2D2D2D] leading-[1.1] mb-6'>TOKONTANY BE <br />
                 <span className='text-[#C84B31]'>MALAGASY</span>
             </h1>
-            <p className='max-w-2xl mx-auto text-lg md:text-xl text-[#2D2D2D]/60 mb-10 leading-relaxed'>        Héritage culturel et innovation sociale au service des communautés malgaches.
+            <p className='text-xl md:text-2xl font-semibold text-[#2D2D2D] mb-4'>"Ny fiavanana no tombony ho antsika"</p>
+            <p className='max-w-2xl mx-auto text-lg md:text-xl text-[#2D2D2D]/60 mb-10 leading-relaxed'>        Héritage culturel et innovation sociale au service des communautés malagasy.
         Ensemble, construisons un avenir durable et solidaire.
             </p>
 
@@ -51,7 +51,7 @@ const HeroSection = () => (
         initial={{ opacity: 0 }}
         animate={{ opacity: 1 }}
         transition={{ delay: 1.2, duration: 0.6 }}
-        className="mt-20 grid grid-cols-3 gap-8 max-w-lg mx-auto"
+        className="mt-20 grid grid-cols-2 gap-8 max-w-lg mx-auto"
       >
         {stats.map((stat) => (
           <div key={stat.label} className="text-center">
