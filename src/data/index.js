@@ -35,7 +35,7 @@ export const programsData = [
   {
     id: 3,
     name: "FA.FI.HAI.",
-    categories: ["Éducation"],
+    categories: ["Éducation/Formation"],
     description: "Communication et partage de connaissances pour tous.",
     icon: BookOpen,
   },
