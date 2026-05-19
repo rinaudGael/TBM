@@ -22,9 +22,9 @@ const ProgrammesSection = () => {
           className="text-center mb-12"
         >
           <span className="text-[#C84B31] text-sm font-semibold uppercase tracking-wider">Nos Actions</span>
-          <h2 className="text-4xl md:text-5xl font-bold text-[#2D2D2D] mt-3 mb-4">Programmes</h2>
+          <h2 className="text-4xl md:text-5xl font-bold text-[#2D2D2D] mt-3 mb-4">Activités</h2>
           <p className="max-w-2xl mx-auto text-[#2D2D2D]/60 text-lg">
-            Découvrez nos programmes structurants qui transforment durablement les communautés malgaches.
+            Nos activités tendent à générer  des revenus pour l'individu porteur du projet.
           </p>
         </motion.div>
 

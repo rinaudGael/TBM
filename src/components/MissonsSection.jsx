@@ -15,8 +15,7 @@ const MissonsSection = () => (
         <span className="text-[#C84B31] text-sm font-semibold uppercase tracking-wider">Notre Impact</span>
         <h2 className="text-4xl md:text-5xl font-bold text-[#2D2D2D] mt-3 mb-4">Missions & ODD</h2>
         <p className="max-w-2xl mx-auto text-[#2D2D2D]/60 text-lg">
-          Alignés avec les Objectifs de Développement Durable de l'ONU, nous travaillons pour
-          un Madagascar plus juste, durable et prospère.
+          Alignés avec les Objectifs de Développement Durable de l'ONU, nous travaillons pour un monde plus equitable et durable .
         </p>
       </motion.div>
 
